@@ -1,11 +1,4 @@
-require_relative '../../util/TestConstants'
-require_relative '../../util/TestUtils'
-require_relative '../../../services/fraud-scoring/FraudScoringService'
-require_relative '../../../services/fraud-scoring/domain/ScoreLookupRequest'
-require_relative '../../../services/fraud-scoring/domain/ScoreLookup'
-require_relative '../../../services/fraud-scoring/domain/TransactionDetail'
-require_relative '../../../test/services/fraud_scoring/MatchIndicatorStatus'
-require_relative '../../../common/environment'
+require_relative '../../test_helper'
 require 'test/unit'
 require 'open-uri'
 

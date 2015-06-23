@@ -1,7 +1,4 @@
-require_relative '../../util/TestConstants'
-require_relative '../../util/TestUtils'
-require_relative '../../../common/Environment'
-require_relative '../../../services/moneysend/services/DeleteSubscriberIdService'
+require_relative '../../test_helper'
 require 'test/unit'
 
 include Mastercard::Common

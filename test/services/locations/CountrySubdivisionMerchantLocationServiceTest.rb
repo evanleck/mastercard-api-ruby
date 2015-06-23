@@ -1,12 +1,4 @@
-require_relative '../../util/TestConstants'
-require_relative '../../util/TestUtils'
-require_relative '../../../services/locations/merchants/services/CountrySubdivisionMerchantLocationService'
-require_relative '../../../services/locations/domain/common/country_subdivisions/CountrySubdivision'
-require_relative '../../../services/locations/domain/common/country_subdivisions/CountrySubdivisions'
-require_relative '../../../services/locations/domain/options/merchants/CountrySubdivisionMerchantLocationRequestOptions'
-require_relative '../../../services/locations/domain/options/merchants/Details'
-require_relative '../../../services/locations/domain/common/Countries/Country'
-require_relative '../../../common/environment'
+require_relative '../../test_helper'
 require 'test/unit'
 
 include Mastercard::Common
@@ -48,4 +40,3 @@ class CountrySubdivisionMerchantLocationServiceTest < Test::Unit::TestCase
   end
 
 end
-

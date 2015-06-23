@@ -1,8 +1,4 @@
-require_relative '../../util/TestConstants'
-require_relative '../../util/TestUtils'
-require_relative '../../../common/environment'
-require_relative '../../../services/bill_payment/RoutingValidationService'
-require_relative '../../../services/bill_payment/domain/BillPayAccountValidation'
+require_relative '../../test_helper'
 require 'test/unit'
 
 include Mastercard::Common

@@ -1,8 +1,4 @@
-require_relative '../../util/TestConstants'
-require_relative '../../util/TestUtils'
-require_relative '../../../services/locations/merchants/services/MerchantCategoriesService'
-require_relative '../../../services/locations/domain/categories/Categories'
-require_relative '../../../common/environment'
+require_relative '../../test_helper'
 require 'test/unit'
 
 include Mastercard::Common

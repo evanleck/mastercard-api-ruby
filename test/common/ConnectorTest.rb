@@ -1,4 +1,4 @@
-require '../../common/Connector'
+require 'mastercard_api'
 
 connector = Connector.new('820oCPqU4KAUEAwy0I6_Xf1dkjAlfSrEbSfeIq961563e1f8!414d686c777974526d2f71367141505a68304673746b633d', 'C:\Users\JBK0718\dev\mastercard\keystore\sandbox\414d686c777974526d2f71367141505a68304673746b633d.p12', 'unreal')
 

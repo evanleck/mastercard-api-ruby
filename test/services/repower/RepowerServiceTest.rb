@@ -1,15 +1,4 @@
-require_relative '../../util/TestConstants'
-require_relative '../../util/TestUtils'
-require_relative '../../../common/Environment'
-require_relative '../../../services/repower/repower/domain/Repower'
-require_relative '../../../services/repower/repower/domain/RepowerRequest'
-require_relative '../../../services/repower/repower_reversal/domain/RepowerReversal'
-require_relative '../../../services/repower/repower_reversal/domain/RepowerReversalRequest'
-require_relative '../../../services/repower/repower/RepowerService'
-require_relative '../../../services/repower/repower_reversal/RepowerReversalService'
-require_relative '../../../services/repower/repower/domain/AccountBalance'
-require_relative '../../../services/repower/repower/domain/CardAcceptor'
-require_relative '../../../services/repower/repower/domain/TransactionAmount'
+require_relative '../../test_helper'
 require 'test/unit'
 
 include Mastercard::Util

@@ -1,13 +1,4 @@
-require_relative '../../util/TestConstants'
-require_relative '../../util/TestUtils'
-require_relative '../../../services/match/domain/options/TerminationInquiryRequestOptions'
-require_relative '../../../services/match/domain/TerminationInquiryRequest'
-require_relative '../../../services/match/services/TerminationInquiryService'
-require_relative '../../../services/match/domain/MerchantType'
-require_relative '../../../services/match/domain/AddressType'
-require_relative '../../../services/match/domain/PrincipalType'
-require_relative '../../../services/match/domain/DriversLicenseType'
-require_relative '../../../common/Environment'
+require_relative '../../test_helper'
 require 'test/unit'
 
 include Mastercard::Util

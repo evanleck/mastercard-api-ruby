@@ -1,9 +1,4 @@
-require_relative '../../util/TestConstants'
-require_relative '../../util/TestUtils'
-require_relative '../../../services/locations/atms/services/AtmLocationService'
-require_relative '../../../services/locations/domain/options/atms/AtmLocationRequestOptions'
-require_relative '../../../services/locations/domain/common/countries/Country'
-require_relative '../../../common/environment'
+require_relative '../../test_helper'
 require 'test/unit'
 
 include Mastercard::Common
