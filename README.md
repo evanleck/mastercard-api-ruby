@@ -1,4 +1,4 @@
-mastercard-api
+DEPRECATED: Checkout our new APIs http://developer.mastercard.com 
 
 ===================
 
