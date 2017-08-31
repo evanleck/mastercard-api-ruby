@@ -112,7 +112,10 @@ module Mastercard
             tmp_point = Point.new
             tmp_point.latitude = point.elements['Latitude'].text
             tmp_point.longitude = point.elements['Longitude'].text
+
             tmp_location.point = tmp_point
+            tmp_location.address = tmp_address
+
             tmp_merchant.location = tmp_location
 
 
