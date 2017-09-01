@@ -1,5 +1,5 @@
-require_relative '../../../common/connector'
-require_relative '../../../common/environment'
+require_relative '../../../common/Connector'
+require_relative '../../../common/Environment'
 require_relative '../../../common/url_util'
 require_relative '../../../common/xml_util'
 require_relative '../../../services/moneysend/domain/transfer/TransferReversal'

@@ -1,5 +1,5 @@
-require_relative '../../common/connector'
-require_relative '../../common/environment'
+require_relative '../../common/Connector'
+require_relative '../../common/Environment'
 require_relative 'domain/Account'
 
 require 'rexml/document'

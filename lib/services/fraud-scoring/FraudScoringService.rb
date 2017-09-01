@@ -1,5 +1,5 @@
-require_relative '../../common/connector'
-require_relative '../../common/environment'
+require_relative '../../common/Connector'
+require_relative '../../common/Environment'
 require_relative '../../services/fraud-scoring/domain/ScoreLookup'
 require_relative '../../services/fraud-scoring/domain/ScoreLookupRequest'
 require_relative '../../services/fraud-scoring/domain/ScoreResponse'
