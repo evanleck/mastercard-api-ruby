@@ -14,7 +14,7 @@ require_relative '../../../../services/locations/domain/common/country_subdivisi
 require_relative '../../../../services/locations/domain/merchants/Point'
 require_relative '../../../../services/locations/domain/merchants/PayPass'
 require_relative '../../../../services/locations/domain/merchants/Topup'
-require_relative '../../../../services/locations/domain/merchants/RePower'
+require_relative '../../../../services/locations/domain/merchants/rePower'
 require_relative '../../../../services/locations/domain/merchants/Products'
 
 require 'rexml/document'
