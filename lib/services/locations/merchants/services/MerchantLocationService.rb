@@ -115,6 +115,8 @@ module Mastercard
 
             tmp_location.point = tmp_point
             tmp_location.address = tmp_address
+            tmp_location.latitude = tmp_point.latitude
+            tmp_location.longitude = tmp_point.longitude
 
             tmp_merchant.location = tmp_location
 
